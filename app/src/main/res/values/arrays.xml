@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="num_players_labels">
+        <item>1 Player</item>
+        <item>2 Players</item>
+    </string-array>
+    <string-array name="num_players_values">
+        <item>one_player</item>
+        <item>two_players</item>
+    </string-array>
+    <string-array name="computer_difficulty_labels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="computer_difficulty_values">
+        <item>easy</item>
+        <item>medium</item>
+        <item>hard</item>
+    </string-array>
+    <string-array name="who_plays_first_labels">
+        <item>X First</item>
+        <item>O First</item>
+    </string-array>
+    <string-array name="who_plays_first_values">
+        <item>x_first</item>
+        <item>o_first</item>
+    </string-array>
+    <string-array name="theme_labels">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system_default</item>
+    </string-array>
+</resources>

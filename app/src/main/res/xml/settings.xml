@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:key="game_settings"
+        app:title="@string/game_settings"
+        android:icon="?attr/ic_game_settings">
+        <ListPreference
+            app:defaultValue="one_player"
+            app:entries="@array/num_players_labels"
+            app:entryValues="@array/num_players_values"
+            app:key="num_players"
+            app:title="@string/num_players"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="x_first"
+            app:entries="@array/who_plays_first_labels"
+            app:entryValues="@array/who_plays_first_values"
+            app:key="who_plays_first"
+            app:title="@string/who_plays_first"
+            app:useSimpleSummaryProvider="true" />
+        <ListPreference
+            app:defaultValue="easy"
+            app:entries="@array/computer_difficulty_labels"
+            app:entryValues="@array/computer_difficulty_values"
+            app:key="computer_difficulty"
+            app:title="@string/computer_difficulty"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreference
+            app:defaultValue="false"
+            app:key="computer_first"
+            app:title="Computer Plays First"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="customization_settings"
+        app:title="@string/customization_settings"
+        android:icon="?attr/ic_customize">
+        <ListPreference
+            app:defaultValue="system_default"
+            app:entries="@array/theme_labels"
+            app:entryValues="@array/theme_values"
+            app:key="theme"
+            app:title="@string/theme"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

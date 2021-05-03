@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ic_play_game" format="reference"/>
+    <attr name="ic_history" format="reference"/>
+    <attr name="ic_filter" format="reference"/>
+    <attr name="ic_sort" format="reference"/>
+    <attr name="ic_game_settings" format="reference"/>
+    <attr name="ic_customize" format="reference"/>
+    <attr name="ic_exit" format="reference"/>
+    <attr name="ic_settings" format="reference"/>
+    <attr name="ic_launcher_background" format="reference"/>
+    <attr name="ic_launcher_foreground" format="reference"/>
+
+    <attr name="img_board" format="reference"/>
+    <attr name="img_welcome_board" format="reference"/>
+    <attr name="img_x" format="reference"/>
+    <attr name="img_o" format="reference"/>
+</resources>

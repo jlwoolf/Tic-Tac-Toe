@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        tools:layout="@layout/fragment_welcome"
+        android:id="@+id/welcomeFragment"
+        android:name="com.jlwoolf.android.tictactoe.ui.welcome.WelcomeFragment"
+        android:label="Welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_history"
+        android:id="@+id/historyFragment"
+        android:name="com.jlwoolf.android.tictactoe.ui.history.HistoryFragment"
+        android:label="Histroy" >
+        <action
+            android:id="@+id/action_historyFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_historyFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_game"
+        android:id="@+id/gameFragment"
+        android:name="com.jlwoolf.android.tictactoe.ui.game.GameFragment"
+        android:label="Game" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.jlwoolf.android.tictactoe.ui.settings.SettingsFragment"
+        android:label="Settings" />
+</navigation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play_game_menu_item"
+        android:icon="?attr/ic_play_game"
+        android:title="@string/play_game"
+        app:showAsAction="ifRoom"/>
+    <!--
+    Thought of adding filtering options but ran out of time
+    <item
+        android:id="@+id/filter_menu_item"
+        android:icon="?attr/ic_filter"
+        android:title="@string/filter"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <group
+                android:id="@+id/filter_menu_group"
+                android:checkableBehavior="all">
+                <item
+                    android:id="@+id/show_wins_menu_item"
+                    android:title="@string/show_wins" />
+                <item
+                    android:id="@+id/show_losses_menu_item"
+                    android:title="@string/show_losses" />
+                <item
+                    android:id="@+id/show_draws_menu_item"
+                    android:title="@string/show_draws" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/sort_menu_item"
+        android:icon="?attr/ic_sort"
+        android:title="@string/sort"
+        app:showAsAction="ifRoom|withText">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_by_date_menu_item"
+                    android:title="@string/sort_by_date"/>
+                <item
+                    android:id="@+id/sort_by_winner_menu_item"
+                    android:title="@string/sort_by_winner"/>
+
+            </group>
+
+        </menu>
+
+    </item>-->
+
+    <item
+        android:id="@+id/settings_menu_item"
+        android:title="@string/settings"
+        android:icon="?attr/ic_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/exit_menu_item"
+        android:title="@string/exit"
+        android:icon="?attr/ic_exit"
+        app:showAsAction="ifRoom" />
+</menu>

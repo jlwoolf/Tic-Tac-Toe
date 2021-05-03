@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/play_game_menu_item"
+        android:icon="?attr/ic_play_game"
+        android:title="@string/play_game"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/history_menu_item"
+        android:icon="?attr/ic_history"
+        android:title="@string/history"
+        app:showAsAction="ifRoom" />
+    <group
+        android:id="@+id/more_options_menu_item"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/settings_menu_item"
+            android:checkable="false"
+            android:title="@string/settings"
+            android:icon="?attr/ic_settings"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/exit_menu_item"
+            android:title="@string/exit"
+            android:icon="?attr/ic_exit"
+            app:showAsAction="ifRoom" />
+    </group>
+
+</menu>
